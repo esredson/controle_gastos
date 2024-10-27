@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "controle-gastos"
+version = "0.1.0"
+description = ""
+authors = ["esredson"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pypdf = "^5.0.1"
+python-dateutil = "^2.9.0.post0"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
